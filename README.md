@@ -84,19 +84,29 @@ Também é detectado:
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/lucascardoso1912/ultron-sentinel.git```
-```
+git clone https://github.com/lucascardoso1912/ultron-sentinel.git
+
+---
 
 2. **Entre no diretório do projeto:**
-   
-`cd ultron-sentinel/sentinel_core```
+
+```md
+```bash
+cd ultron-sentinel/sentinel_core
+
+---
 
 3. **Execute o script principal:**
 
-`python main.py`
+```md
+```bash
+python main.py
 
+---
 
 4. Veja os alertas sendo exibidos em tempo real no terminal.
+
+```
 
 ---
 
@@ -172,6 +182,7 @@ Desenvolvedor em formação | Entusiasta da técnlogia, desenvolvimento e segura
 Pull requests e sugestões são bem-vindas enquanto o projeto evolui.
 
 ---
+
 
 
 
