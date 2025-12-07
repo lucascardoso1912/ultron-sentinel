@@ -1,0 +1,28 @@
+2025-12-05 15:22:01 LOGIN FAILED user=root IP=192.168.1.15
+2025-12-05 15:22:05 LOGIN SUCCESS user=lucas IP=192.168.1.23
+2025-12-05 15:22:20 LOGIN FAILED user=admin IP=45.199.12.77
+2025-12-05 15:22:25 LOGIN FAILED user=admin IP=45.199.12.77
+2025-12-05 15:22:30 LOGIN FAILED user=admin IP=45.199.12.77
+Dec 05 23:55:01 sshd[991]: Failed password for root from 45.133.1.22 port 55801
+Dec 05 23:55:03 sshd[991]: Failed password for root from 45.133.1.22 port 55802
+Dec 05 23:55:05 sshd[991]: Failed password for root from 45.133.1.22 port 55803
+Dec 05 23:55:08 sshd[991]: Failed password for root from 45.133.1.22 port 55804
+Dec 05 23:55:10 sshd[991]: Failed password for root from 45.133.1.22 port 55806
+Dec 05 22:21:11 kernel: Access denied for user staff on /secure/data
+Dec 05 03:12:11 server sshd[888]: Accepted password for admin from 202.55.11.72 port 60333 ssh2
+[WARN] 2025-12-05 22:31:13 Possible SQL Injection from 201.21.55.120: SELECT * FROM users WHERE username='' OR '1'='1'
+[ALERT] 2025/12/05 22:11:01 XSS attempt detected: <script>alert('HACKED')</script> from 189.22.1.55
+Dec 05 22:01:11 firewall: Port scan detected from 177.201.5.233 on ports 21,22,23,80,443
+Dec 05 20:55:09 server sshd[1002]: Connection refused from 102.55.9.44 port 55890
+Dec 05 19:34:02 app: Unauthorized file access attempt: /etc/shadow by user=guest
+AV-Engine: Suspicious file detected: C:\Users\Public\temp\weirdscript.ps1 MD5:d9a8c3...
+ALERT: High file rename rate detected in C:\Users\lucas\Documents from process crypt0r.exe
+audit: User admin executed dangerous command: "rm -rf /" from terminal pts/2
+Dec 05 22:22:12 system: Unauthorized user creation attempt: user=h4x0r
+FIREWALL: Rule removed unexpectedly: allow 3389 from ANY
+sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1001 user=guest attempted sudo
+ftp-server: Failed login for user ftpadmin from 185.99.21.102
+network: Abnormal traffic detected from 192.0.2.55 - 50.000 packets/sec
+audit: File integrity alert: /etc/ssh/sshd_config modified
+webapp: Suspicious API token used from 143.44.201.9
+powershell: Executed suspicious obfuscated script: Invoke-Expression (New-Object Net.WebClient).DownloadString(...)
