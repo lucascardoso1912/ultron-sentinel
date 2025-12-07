@@ -32,8 +32,12 @@ O projeto combina fundamentos de **Python, Regex, arquitetura modular, análise 
 
 ## Estrutura do Projeto
 
-📁 Estrutura do Projeto
-```Ultron Sentinel/
+---
+
+## 📁 Estrutura do Projeto
+
+```
+Ultron Sentinel/
 │
 ├── logs/                 # Arquivos de log para análise
 │   └── example.log
@@ -45,6 +49,7 @@ O projeto combina fundamentos de **Python, Regex, arquitetura modular, análise 
 │
 └── README.md
 ```
+
 
 ---
 
@@ -78,11 +83,13 @@ Também é detectado:
 
 1. **Clone o repositório:**
 
-`git clone https://github.com/lucascardoso1912/ultron-sentinel.git`
+```bash
+git clone https://github.com/lucascardoso1912/ultron-sentinel.git```
+```
 
 2. **Entre no diretório do projeto:**
    
-`cd ultron-sentinel/sentinel_core`
+`cd ultron-sentinel/sentinel_core```
 
 3. **Execute o script principal:**
 
