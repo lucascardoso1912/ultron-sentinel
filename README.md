@@ -32,10 +32,8 @@ O projeto combina fundamentos de **Python, Regex, arquitetura modular, análise 
 
 ## Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
-
-```
-Ultron Sentinel/
+📁 Estrutura do Projeto
+```Ultron Sentinel/
 │
 ├── logs/                 # Arquivos de log para análise
 │   └── example.log
